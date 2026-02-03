@@ -1,6 +1,5 @@
 """
 Market Sentiment Analysis - Trader Performance vs Market Sentiment
-Assignment for Primetrade.ai Data Science Intern Position
 """
 
 import pandas as pd
@@ -416,3 +415,4 @@ print("\n✓ Saved insights to 'output/insights.txt'")
 print("\n" + "=" * 80)
 print("ANALYSIS COMPLETE - Check 'output/' directory for charts and insights")
 print("=" * 80)
+
