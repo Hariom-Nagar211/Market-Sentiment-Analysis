@@ -56,5 +56,4 @@ See [ANALYSIS_SUMMARY.md](ANALYSIS_SUMMARY.md) for detailed insights and strateg
 4. **Analysis**: Statistical comparison of performance and behavior across sentiment periods
 5. **Visualization**: Created charts to illustrate patterns
 
-### Contact
-For questions about this analysis, please contact the assignment submitter.
+
