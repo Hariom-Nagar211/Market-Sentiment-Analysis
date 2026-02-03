@@ -3,7 +3,7 @@
 ## Methodology
 
 ### Data Preparation
-- **Datasets**: Bitcoin Fear/Greed Index (sentiment) + Hyperliquid trader data
+- **Datasets**: Bitcoin Fear/Greed Index (sentiment) + Hyperliquid trader dataset
 - **Alignment**: Merged datasets by date (daily level)
 - **Metrics Created**:
   - Daily PnL per trader
@@ -80,3 +80,4 @@ Charts and detailed statistics are saved in the `output/` directory.
   - Incorporate volatility measures
   - Build predictive models for next-day profitability
   - Real-time dashboard for live monitoring
+
