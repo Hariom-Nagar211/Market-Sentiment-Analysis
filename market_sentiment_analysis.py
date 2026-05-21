@@ -2,7 +2,7 @@
 Market Sentiment Analysis - Trader Performance vs Market Sentiment
 """
 
-import pandas as pd
+pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -14,7 +14,7 @@ warnings.filterwarnings('ignore')
 plt.style.use('seaborn-v0_8-darkgrid')
 sns.set_palette("husl")
 
-print("=" * 80)
+("=" * 80)
 print("MARKET SENTIMENT ANALYSIS - TRADER PERFORMANCE VS MARKET SENTIMENT")
 print("=" * 80)
 
