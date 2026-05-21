@@ -1,15 +1,15 @@
- pandas as pd
+import pandas as pd
 import numpy as np
 from datetime import datetime
 import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Data Preparation
-df load_data(file_path):
+def load_data(file_path):
     data = pd.read_csv(file_path)
     data['Date'] = pd.to_datetime(data['Date'])
     data.set_index('Date', inplace=True)
-    retn data
+    return data
 
 def calculate_returns(data):
     data['Daily_Return'] = data['Close'].pct_change()
