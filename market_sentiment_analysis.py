@@ -1,12 +1,12 @@
-import pandas as pd
+ pandas as pd
 import numpy as np
 from datetime import datetime
 import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Data Preparation
-def load_data(file_path):
-    data = pd.read_csv(file_path)
+ef load_data(file_path):
+    data = pdread_csv(file_path)
     data['Date'] = pd.to_datetime(data['Date'])
     data.set_index('Date', inplace=True)
     return data
